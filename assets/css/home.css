@@ -27,3 +27,111 @@
     text-transform: uppercase;
     color: #00e0ff;
 }
+
+/* about */
+
+.container .h-about {
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 100px;
+}
+
+.container .h-about .h-title__about {
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #00e0ff;
+    margin-bottom: 25px;
+}
+
+.container .h-about .h-title__about h2 {
+    margin-top: 5%;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #000000
+}
+
+.container .h-about .paragraph  {
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    text-align: justify;
+    font-size: 18px;
+}
+
+/* experience */
+.container .h-experience .h-title__experience{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #00e0ff;
+    margin-bottom: 50px;
+
+}
+
+.container .h-experience .h-title__experience h2{
+    margin-top: 5%;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.container .h-experience .h-items{
+    width: 100%;
+    min-height: 100px;
+}
+
+.container .h-experience .h-items .item{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 220px;
+}
+
+.container .h-experience .h-items .item .work{
+    min-width: 25%;
+    max-width: 25%;
+    min-height: 100px;
+}
+
+.container .h-experience .h-items .item .work h2{
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.container .h-experience .h-items .item .work p{
+    font-family: "Oswald", sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.container .h-experience .h-items .item .description{
+    width: 75%;
+    min-height: 100px;
+}
+
+.container .h-experience .h-items .item .description h2{
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #00e0ff;
+}
+
+.container .h-experience .h-items .item .description p{
+    font-family: "Oswald", sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: justify;
+    color:#000000 ;
+}
+
+/*education*/
