@@ -134,4 +134,205 @@
     color:#000000 ;
 }
 
-/*education*/
+/*Education*/
+.container .h-education{
+    width: 100%;
+    min-height: 100px;
+}
+
+.container .h-education .h-title__education{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #00e0ff;
+    margin-bottom: 50px;
+}
+
+.container .h-education .h-title__education h2{
+    margin-top: 5%;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.container .h-education .h-items__education .item{
+    width: 100%;
+    min-height: 220px;
+}
+
+.container .h-education .h-items__education .item .title{
+    margin-bottom: 10px;
+}
+
+.container .h-education .h-items__education .item .title h2{
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #232323;
+}
+
+.container .h-education .h-items__education .item .title span{
+    font-family: "Oswald";
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #00e0ff;
+}
+
+.container .h-education .h-items__education .item p{
+    font-family: "Oswald", sans-serif;
+    font-weight: normal;
+    text-align: justify;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+/*Skills*/
+.container .h-skills{
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 100px;
+}
+
+.container .h-skills .h-title__skills{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #00e0ff;
+    margin-bottom: 50px;
+}
+
+.container .h-skills .h-title__skills h2{
+    margin-top: 5%;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.container .h-skills .h-items__skills .item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.container .h-skills .h-items__skills .item .title{
+    min-width: 150px;
+}
+
+.container .h-skills .h-items__skills .item h3{
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.container .h-skills .h-items__skills .item .icon {
+    position: relative;
+    width: 200px;
+    height: 18px;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    border-radius: 6px;
+    background: transparent;
+}
+
+/* Percents */
+.container .h-skills .h-items__skills .item .icon .percent-30{
+    width: 130px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: #00e0ff;
+}
+
+.container .h-skills .h-items__skills .item .icon .percent-40{
+    width: 140px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: #00e0ff;
+}
+
+.container .h-skills .h-items__skills .item .icon .percent-50{
+    width: 150px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: #00e0ff;
+}
+
+.container .h-skills .h-items__skills .item .icon .percent-60{
+    width: 160px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: #00e0ff;
+}
+
+.container .h-skills .h-items__skills .item .icon .percent-70{
+    width: 170px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: #00e0ff;
+}
+
+.container .h-skills .h-items__skills .item .icon .percent-80{
+    width: 180px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: #00e0ff;
+}
+
+/*contact*/
+.container .h-contact{
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 50px;
+}
+
+.container .h-contact .h-title__contact{
+    width: 100%;
+    min-height: 50px;
+    border-bottom: 2px solid #00e0ff;
+    margin-bottom: 50px;
+}
+
+
+.container .h-contact .h-title__contact h2{
+    margin-top: 5%;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.container .h-contact .item {
+    width: 100%;
+    min-height: 80px;
+}
+
+.container .h-contact .item h3{
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#000;
+}
+
+.container .h-contact .item p{
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color:#00e0ff;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #00e0ff;
+}
+
