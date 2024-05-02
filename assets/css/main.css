@@ -1,5 +1,6 @@
 @import "./home.css";
 @import "./responsive.css";
+@import "utils.css";
 
 *{
     padding: 0;
